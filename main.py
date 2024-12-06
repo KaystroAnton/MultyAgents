@@ -1,16 +1,35 @@
-# This is a sample Python script.
+import random
+from agent import Agent
+N = 6  # number of agents
+isEnd = False
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+agents = [Agent(i,random.randint(-100,100)) for i in range(N)] # massive of agents
+numbers = [agents[i].agent_number for i in range(N)]
+avgTrue = sum(numbers)/N
+print(numbers, avgTrue)  # avg for check
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# create connections
+chain = [[i,i+1] for i in range(N-1)]
+closed_circuit = [[i,i+1] for i in range(N-1)]
+closed_circuit.append([N-1,0])
+connection = chain
+for link in connection:
+    agents[link[0]].add_connection(agents[link[1]])
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# on start every agent get info from neighbors
+for i in agents:
+    i.get_connections()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# main loop
+for simulation_step in range(N-2):  # simulation step
+    if isEnd:
+        break
+    for i in range(N):  # in each step we work with every agent
+        if len(agents[i].info) == 6:
+            print("on step", simulation_step, "algorithm ends work wih result", agents[i].give_result())
+            isEnd = True
+            break
+        agents[i].update_info()
