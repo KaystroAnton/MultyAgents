@@ -27,4 +27,4 @@ class Agent:
             for i in self.buffer:
                 s += (i - self.agent_number - noise())
             self.agent_number += alpha*s + random.normalvariate(mu = 0, sigma = 1)
-        self.buffer = []
+        self.buffer = [] #clean buffer
