@@ -21,6 +21,17 @@
     <option name="NEW_BASE" value="Task1" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Task1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,7 +42,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KaystroAnton/MultyAgent.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/KaystroAnton/MultyAgents.git&quot;,
     &quot;accountId&quot;: &quot;5ad1776b-efa6-4470-9085-ad8b50b5d3ca&quot;
   }
 }</component>
@@ -44,18 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Task1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Антон/MultyAgents&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Constants.executor": "Run",
+    "Python.Task1.executor": "Run",
+    "Python.agentTask2.executor": "Run",
+    "Python.helpfunctions.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.pair.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Task2",
+    "last_opened_file_path": "C:/Антон/MultyAgents",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Task1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MultyAgents" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Антон\MultyAgents\Task1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +121,55 @@
       <option name="project" value="LOCAL" />
       <updated>1733481802262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733485397322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733485397322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733486059014</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733486059014</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820526136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820526136</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820681499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820681499</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820944579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820944579</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820999338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820999338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
