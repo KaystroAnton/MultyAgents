@@ -4,7 +4,6 @@ class Agent:
         self.agent_number = agent_number
         self.connections = [self]
         self.info = []
-
     def get_agent_number(self):
         return self.agent_number
 
