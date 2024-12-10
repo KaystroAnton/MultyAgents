@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f467a1f5-5482-49db-b00a-0bb808e0fd94" name="Changes" comment="add file">
-      <change afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpfunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pair.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="f467a1f5-5482-49db-b00a-0bb808e0fd94" name="Changes" comment="add file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +21,12 @@
     <option name="NEW_BASE" value="Task1" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Task1" />
@@ -153,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733820681499</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820944579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820944579</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add file">
+      <option name="closed" value="true" />
+      <created>1733820999338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820999338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
