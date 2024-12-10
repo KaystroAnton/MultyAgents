@@ -1,5 +1,5 @@
 import random
-from agent import Agent
+from agentTask1 import Agent
 N = 6  # number of agents
 isEnd = False
 
